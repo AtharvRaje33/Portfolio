@@ -13,11 +13,11 @@ const ContactUs = () => {
 
     emailjs
     .sendForm(
-      process.env.REACT_APP_PRIVATE_KEY,
-      process.env.REACT_APP_TEMPLATE_KEY,
+      'service_5f5vx0p',
+      'template_22zeyxp',
       form.current,
       {
-        publicKey: process.env.REACT_APP_PUBLIC_KEY,
+        publicKey: 'mitFZrEIoKfAigtCo',
       }
     ).then(
         () => {
