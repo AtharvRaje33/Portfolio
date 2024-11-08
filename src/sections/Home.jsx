@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import heroimage from '../assets/heroimage.gif';
 import Spline from '@splinetool/react-spline';
 
 const Home = () => {

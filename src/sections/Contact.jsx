@@ -12,10 +12,14 @@ const ContactUs = () => {
     setIsSubmitting(true);
 
     emailjs
-      .sendForm('service_5f5vx0p', 'template_22zeyxp', form.current, {
-        publicKey: 'mitFZrEIoKfAigtCo',
-      })
-      .then(
+    .sendForm(
+      process.env.REACT_APP_PRIVATE_KEY,
+      process.env.REACT_APP_TEMPLATE_KEY,
+      form.current,
+      {
+        publicKey: process.env.REACT_APP_PUBLIC_KEY,
+      }
+    ).then(
         () => {
           setSubmitStatus('success');
           form.current.reset();
