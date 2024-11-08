@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "Report Genx",
       description: "An innovative solution that demonstrates your problem-solving abilities.",
-      technologies: ["React", "Node.js", "Tailwind", "PostgreSQL", "Express.js"],
+      technologies: ["React", "Node.js", "Tailwind", "PostgreSQL", "Express.js","Supabase"],
       githubLink: "https://github.com/AtharvRaje33/Report-Generation-AP-S1",
       image: reportgenx
     }

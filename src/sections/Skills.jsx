@@ -11,7 +11,7 @@ const Skills = () => {
     {
       category: "Development and Database",
       icon: <Database className="w-6 h-6" />,
-      skills: ["Flutter", "Django", "HTML", "CSS", "MYSQL", "SciKitLearn"]
+      skills: ["Flutter", "Django", "HTML", "CSS", "MYSQL", "SciKitLearn","React","Node","Express","MongoDB","PostgreSQL"]
     },
     {
       category: "Relevant Coursework",
