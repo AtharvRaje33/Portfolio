@@ -35,6 +35,13 @@ const ContactUs = () => {
       });
   };
 
+  console.log('Environment Variables:', process.env.REACT_APP_TEMPLATE_KEY);
+  console.log('Environment Variables:', process.env.REACT_APP_PRIVATE_KEY_KEY);
+  console.log('Environment Variables:', process.env.REACT_APP_PUBLIC_KEY_KEY);
+
+
+
+
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-black">
       <div className="w-full max-w-6xl mx-auto flex gap-8">
