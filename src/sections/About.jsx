@@ -27,7 +27,7 @@ const AboutMe = () => {
               </p>
               
               <p className="text-lg leading-relaxed">
-                I've worked on various projects like while honing my skills in 
+                I've worked on various projects while honing my skills in 
                 <span className="text-blue-400"> MERN stack</span> and algorithmic problem-solving.
               </p>
               
